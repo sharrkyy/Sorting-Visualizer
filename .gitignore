@@ -1,15 +1,28 @@
-# IDE configs
-.idea/
-.vscode/
-
-# Build artifacts
+# Compiled source
 *.exe
 *.dll
 *.o
+*.obj
+*.so
+*.dylib
+
+# Build directories
 build/
+Debug/
+Release/
+x64/
+x86/
 
-# Python cache
-__pycache__/
+# IDE configs
+.vscode/
+.idea/
 
-# Local demo repos (ignore completely)
+# Local demo repos
 GitDemo/
+
+# SFML DLLs (you can keep them locally but don’t track them in Git)
+sfml-*.dll
+
+# Misc
+*.log
+*.tmp
