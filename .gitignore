@@ -1,0 +1,15 @@
+# IDE configs
+.idea/
+.vscode/
+
+# Build artifacts
+*.exe
+*.dll
+*.o
+build/
+
+# Python cache
+__pycache__/
+
+# Local demo repos (ignore completely)
+GitDemo/
